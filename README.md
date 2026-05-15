@@ -56,4 +56,3 @@ The build writes the extension files into `dist/`.
 - If the popup says no message text was found, make sure the chat thread is open and visible.
 - If OpenAI returns an error, verify the API key and model name.
 - If Chrome cannot load the extension, rebuild with `npm run build` and load the `dist/` folder again.
->>>>>>> 853a7a3 (first commit)
