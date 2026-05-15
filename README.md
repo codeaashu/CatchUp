@@ -1,9 +1,10 @@
-# CatchUp
-<<<<<<< HEAD
-Too many messages. Catch every conversation in seconds.
-=======
+# CatchUp — Too many messages. Catch all conversations in seconds.
 
-CatchUp is a Chrome extension that summarizes the open chat in web-based messengers like WhatsApp Web and Telegram Web.
+CatchUp is an AI-powered Chrome extension that summarizes long group conversations from platforms like WhatsApp, Discord, Telegram, X, and LinkedIn.
+
+Instead of scrolling through hundreds of unread messages, CatchUp instantly gives you the important context, key discussions, decisions, updates, and highlights from the conversation — in seconds.
+
+Built for founders, developers, communities, remote teams, and anyone overwhelmed by nonstop group chats.
 
 ## What it does
 
