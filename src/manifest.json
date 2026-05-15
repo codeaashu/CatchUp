@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "CatchUp",
+  "version": "1.0.0",
+  "description": "Summarize open chat conversations in browser messengers.",
+  "action": {
+    "default_title": "CatchUp",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "catchup",
+  "version": "1.0.0",
+  "description": "Chrome extension that summarizes open chat conversations from web messengers.",
+  "private": true,
+  "scripts": {
+    "build": "tsc && node scripts/copy-static.mjs",
+    "watch": "tsc -w",
+    "test": "echo \"No tests configured\" && exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/chrome": "^0.0.314",
+    "@types/node": "^25.3.1",
+    "typescript": "^5.9.3"
+  }
+}
